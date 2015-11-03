@@ -70,5 +70,9 @@
          (eq 1 (point-max)))
     (insert-file "~/.emacs.d/personal/template.py")))
 
+;; Emacs major mode for editing Kivy files
+(require 'kivy-mode)
+(add-to-list 'auto-mode-alist '("\\.kv$" . kivy-mode))
+
 (provide 'custom)
 ;;; custom.el ends here
