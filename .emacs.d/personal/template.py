@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 import logging
@@ -22,4 +22,4 @@ if __name__ == '__main__':
 
     test()
 
-    print "done"
+    print("done")
