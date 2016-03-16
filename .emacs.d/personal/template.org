@@ -1,0 +1,7 @@
+#+STARTUP: showall
+#+OPTIONS: ^:nil toc:nil pri:t p:t tags:t tasks:t todo:t
+#+HTML_HEAD: <style type="text/css">#postamble { display:none; }</style>
+
+Title goes here
+
+* First Heading
