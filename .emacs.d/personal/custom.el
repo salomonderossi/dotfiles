@@ -107,6 +107,13 @@
 ;; Enable flyspell for org mode
 (add-hook 'org-mode-hook 'turn-on-flyspell)
 
+;; Increase error threshold for flake8
+(add-hook 'python-mode-hook (lambda ()
+                               (flycheck-mode 1)
+                               (semantic-mode 1)
+                               (setq flycheck-checker 'python-flake8
+                                     flycheck-checker-error-threshold 2000)))
+
 (provide 'custom)
 ;;; custom.el ends here
 (custom-set-variables
